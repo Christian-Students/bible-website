@@ -10,7 +10,7 @@ h1 {
 /* Navbar */
 .uk-navbar-container {
     height: 50px;
-    background-color:#224E74 !important;
+    background-color:#003366 !important;
 }
 
 .uk-navbar-nav>* {
@@ -70,11 +70,11 @@ button:focus {
 }
 
 .top_button:hover, .top_button:focus {
-    background-color: #225E74;
+    background-color: #004366;
 }
 
 .top_button.active {
-    background-color: #225E74;
+    background-color: #004366;
 }
 
 /* Grid */
