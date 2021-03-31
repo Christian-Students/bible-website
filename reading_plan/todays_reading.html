@@ -180,9 +180,16 @@
         	}
     	});
     </script>
-		<div id="copyright">
-		<copyright>Watch this space - Reading Schedule to start on Thursday 1 April!</copyright>
-			<!--	<copyright>Verses accessed from the Holy Bible Recovery Version (text-only edition) © 2020 Living Stream Ministry www.lsm.org</copyright> -->
-		</div>
+		<script> //including copyright only if needed
+			if (reading=="Catch up or rest") {
+				document.write ('<p style="text-align: center; font-size:12px; margin-right:13px; margin-left:13px;"><i>Use this day to Catch Up or Rest - Enjoy your day in Christ!</i></p>');
+			}
+			else if (reading=="Today's Reading") {
+				document.write ('<p style="text-align: center; font-size:12px; margin-right:13px; margin-left:13px;"><i>Watch this space - Reading Schedule to come soon!</i></p>');
+			}
+			else {
+				document.write ('<p style="text-align: center; font-size:12px; margin-right:13px; margin-left:13px;"><i>Verses accessed from the Holy Bible Recovery Version (text-only edition) © 2020 Living Stream Ministry 	www.lsm.org</i></p>');
+			}
+		</script>  
 	</body>
 </html>
